@@ -1,0 +1,51 @@
+{
+    "name": "dark-blue-and-warm-theme",
+    "displayName": "Dark Blue & Warm",
+    "description": "A minimal dark blue theme with warm colored text, easy to the eyes.",
+    "publisher": "heyyod",
+    "author": {
+        "name": "Konstantinos Damaskinos"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heyyod/dark-blue-and-warm.git"
+    },
+    "bugs": {
+        "url": "https://github.com/heyyod/dark-blue-and-warm/issues"
+    },
+    "galleryBanner": {
+        "color": "#001626",
+        "theme": "dark"
+    },
+    "icon": "theme_icon.png",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "blue",
+        "dark",
+        "brown",
+        "warm",
+        "wood",
+        "dark blue",
+        "dark blue theme",
+        "blue theme",
+        "warm theme",
+        "wood theme",
+        "blue warm",
+        "dark theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Blue And Warm",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Blue And Warm-color-theme.json"
+            }
+        ]
+    }
+}
