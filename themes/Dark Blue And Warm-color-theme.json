@@ -373,6 +373,18 @@
         "gitDecoration.modifiedResourceForeground": "#707070",
 	},
 	"tokenColors": [
+        {
+            "name": "comments",
+            "scope": [
+                "comment",
+                "comment.block",
+                "comment.line",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#707070",
+            }
+        },
 		{
 			"name": "main text",
 			"scope": [
@@ -381,7 +393,6 @@
 				"variable.other.property",
 				"keyword.other.unit",
 				"entity.other.attribute-name",
-				"support.type.property-name.json.comments",
 				"entity.name.type.interface",
 				"variable.language.wildcard.java",
 				"variable.other.definition",
@@ -491,6 +502,7 @@
 		{
 			"name": "functions",
 			"scope": [
+                "entity.name.function"
 			],
 			"settings": {
 				"foreground": "#b65f44"
