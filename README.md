@@ -1,4 +1,7 @@
 # Dark Blue And Warm Theme for VS Code
+
+![Alt text](screenshot.png "Preview Screenshot")
+
 ## Additional Recommended Settings:
     "editor.cursorStyle": "block",
     "editor.lineDecorationsWidth": 0,
@@ -16,6 +19,3 @@
 ## Adjust these to your preferences:
     "editor.fontSize": 15,
     "window.zoomLevel": -2,
-
-## Preview:
-![Alt text](./screenshot.png "Preview Screenshot")
