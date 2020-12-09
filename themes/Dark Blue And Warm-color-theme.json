@@ -401,7 +401,9 @@
 				"entity.name.function.operator",
 				"support.type.property-name",
 				"entity.name.section.markdown",
-				"markup.bold.markdown"
+				"markup.bold.markdown",
+                "entity.name.type",
+                "punctuation",
 			],
 			"settings": {
 				"foreground": "#c8b48c"
@@ -433,11 +435,9 @@
 				"storage.modifier",
 				"keyword.operator.sizeof",
 				"keyword",
-				"entity.name.type.cpp",
 				"meta.return-type",
 				"support.class",
 				"support.type",
-				"entity.name.type",
 				"entity.name.namespace",
 				"entity.other.attribute",
 				"entity.name.scope-resolution",
@@ -466,7 +466,8 @@
 				"storage.type.generic.groovy",
 				"storage.type.object.array.groovy",
 				"storage.type.primitive.array.groovy",
-				"storage.type.primitive.groovy",
+                "storage.type.primitive.groovy",
+                "storage.type.struct",
 				"keyword.control",
 				"keyword.operator.delete",
 				"keyword.other.using",
@@ -474,10 +475,9 @@
 				"entity.name.operator",
 				"keyword.operator.new",
 				"variable.language.this",
-				"punctuation",
 				"variable.language",
 				"entity.other.inherited-class",
-				"punctuation.definition.list.begin.markdown"
+                "punctuation.definition.list.begin.markdown",
 			],
 			"settings": {
 				"foreground": "#be9632"
@@ -492,8 +492,7 @@
 				"string.quoted.other",
 				"entity.name.function.preprocessor",
 				"storage.modifier.import.java",
-				"meta.import.java",
-				"meta.parens"
+				"meta.import.java"
 			],
 			"settings": {
 				"foreground": "#509696"
