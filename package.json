@@ -1,6 +1,6 @@
 {
-    "name": "dark-blue-and-warm-theme",
-    "displayName": "Dark Blue & Warm",
+    "name": "wooden-aurora-theme",
+    "displayName": "Wooden Aurora Theme",
     "description": "A minimal dark blue theme with warm colored text, easy to the eyes.",
     "publisher": "heyyod",
     "author": {
@@ -42,9 +42,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dark Blue And Warm",
+                "label": "Wooden Aurora Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Dark Blue And Warm-color-theme.json"
+                "path": "./themes/Wooden-Aurora-Theme.json"
             }
         ]
     }
