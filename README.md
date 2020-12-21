@@ -40,4 +40,4 @@ It would be best to add a screenshot of the code's textmate scope. You can do th
 1. Press F1 or Ctrl + Shift + P
 2. Search for "token"
 3. Click "Developer: Inspect Editor Tokens and Scopes"
-4. Select the field where the color is work and take a screenshot of the pop-up box allong with the code.
+4. Select the field where the color is not right and take a screenshot of the pop-up box allong with the code.
