@@ -1,18 +1,11 @@
 # Wooden Aurora: Theme for VS Code
-
-### A minimal theme with a deep dark background and mostly wooden colors for the text. It aims for a simple look, that's easy to the eyes. Mostly tested for C/C++ and Java code.  
-&nbsp;
-&nbsp;
-&nbsp;
+## A minimal theme with a deep dark blue background and wood shaded text. It aims for a simple look, that's easy to the eyes.
+Mostly tested for C/C++, Java and Python code.  
 
 ## Preview
 ![Alt text](preview.gif "Preview Screenshot")
 
-&nbsp;
-&nbsp;
-&nbsp;
-
-### Additional Recommended Settings For a Minimal Look
+## Additional Recommended Settings For a Minimal Look
     "editor.cursorStyle": "block",
     "editor.lineDecorationsWidth": 0,
     "editor.scrollbar.verticalScrollbarSize": 10,
@@ -29,7 +22,7 @@
     "editor.fontSize": 15,
     "window.zoomLevel": -2,
 
-### Report Issues
+## Report Issues
 
 In case you find irregular coloring report it to the following link:
 

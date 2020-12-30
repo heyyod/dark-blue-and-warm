@@ -1,9 +1,10 @@
 # Change Log
 
-All notable changes to the "dark-blue-and-warm" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## [0.2.0] -  December 30, 2020
+### Fixed
+- Selection background colors
+- Python keywords and function calls
+  
+## [0.0.1] -  December 20, 2020
 
 - Initial release

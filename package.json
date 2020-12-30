@@ -1,12 +1,12 @@
 {
     "name": "wooden-aurora-theme",
     "displayName": "Wooden Aurora Theme",
-    "description": "A minimal dark blue theme with warm colored text, easy to the eyes.",
+    "description": "A minimal dark blue theme with wood shaded text.",
     "publisher": "Kostas-Damaskinos",
     "author": {
         "name": "Kostas Damaskinos"
     },
-    "version": "0.0.1",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.51.0"
     },
