@@ -390,6 +390,7 @@
 		{
 			"name": "main text",
 			"scope": [
+                "source",
 				"keyword.operator",
 				"variable.parameter",
 				"variable.other.property",
@@ -465,7 +466,6 @@
 				"variable.language",
                 "punctuation.definition.list.begin.markdown",
                 "storage.type.function"
-                
 			],
 			"settings": {
 				"foreground": "#be9632"
@@ -491,7 +491,8 @@
 			"name": "functions",
 			"scope": [
                 "entity.name.function",
-                "meta.function-call"
+                "meta.function-call.generic",
+                "support.function.builtin"
 			],
 			"settings": {
 				"foreground": "#b65f44"
