@@ -29,6 +29,12 @@ struct test
     }
 };
 
+void JustAfunction(test &a, test *b)
+{
+    test c = a;
+    test *d = b;
+}
+
 int main()
 {
     int a = 0xFFFFFF;
@@ -51,4 +57,7 @@ int main()
     delete t1;
 
     class0 c(0,0);
+
+    test *ptest = new test;
+    ptest->a = 50;
 }

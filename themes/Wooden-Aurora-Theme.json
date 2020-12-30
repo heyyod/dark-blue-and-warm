@@ -440,7 +440,6 @@
 				"keyword.operator.sizeof",
 				"keyword.other.using",
 				"keyword.other.operator",
-                "storage.modifier",
                 "storage.type",
                 "storage.type.struct",
 				"storage.type.primitive",
