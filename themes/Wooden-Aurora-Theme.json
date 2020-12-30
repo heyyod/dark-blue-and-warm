@@ -379,10 +379,12 @@
                 "comment",
                 "comment.block",
                 "comment.line",
-                "punctuation.definition.comment"
+                "punctuation.definition.comment",
+                "storage.type.annotation",
+                "punctuation.definition.annotation"
             ],
             "settings": {
-                "foreground": "#707070",
+                "foreground": "#707070"
             }
         },
 		{
@@ -438,7 +440,8 @@
 				"keyword.operator.sizeof",
 				"keyword.other.using",
 				"keyword.other.operator",
-				"storage.modifier",
+                "storage.modifier",
+                "storage.type",
                 "storage.type.struct",
 				"storage.type.primitive",
                 "storage.type.template",
@@ -459,6 +462,7 @@
 				"variable.language.this",
 				"variable.language",
                 "punctuation.definition.list.begin.markdown",
+                "storage.type.function"
                 
 			],
 			"settings": {
@@ -483,7 +487,8 @@
 		{
 			"name": "functions",
 			"scope": [
-                "entity.name.function"
+                "entity.name.function",
+                "meta.function-call"
 			],
 			"settings": {
 				"foreground": "#b65f44"
