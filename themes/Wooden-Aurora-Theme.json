@@ -1,8 +1,8 @@
 {
-	"name": "Dark Blue And Warm",
-	"type": "dark",
-	"colors": {
-		// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    "name": "Dark Blue And Warm",
+    "type": "dark",
+    "colors": {
+        // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         // Contrast Colors - The contrast colors are typically only set for high contrast themes. If set, they add an additional border around items across the UI to increase the contrast.
         // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         //"contrastActiveBorder": "#",
@@ -158,22 +158,22 @@
         "editor.selectionBackground": "#303030",
         //"editor.selectionForeground": "#",
         "editor.inactiveSelectionBackground": "#30303060",
-        "editor.selectionHighlightBackground": "#303030",
-        //"editor.selectionHighlightBorder": "#",
+        "editor.selectionHighlightBackground": "#30303060",
+        "editor.selectionHighlightBorder": "#303030",
         "editor.wordHighlightBackground": "#30303080",
         "editor.wordHighlightBorder": "#303030",
         //"editor.worldHighlightStrongBackground": "#30303080",
         "editor.wordHighlightStrongBorder": "#303030",
         "editor.findMatchBackground": "#30303080",
-        "editor.findMatchHighlightBackground": "#303030",
+        "editor.findMatchHighlightBackground": "#30303060",
         "editor.findRangeHighlightBackground": "#303030",
         "editor.findMatchBorder": "#303030",
         "editor.findMatchHighlightBorder": "#303030",
-        "editor.hoverHighlightBackground": "#30303080",
-        "editor.lineHighlightBackground": "#30303080",
+        "editor.hoverHighlightBackground": "#30303060",
+        "editor.lineHighlightBackground": "#30303060",
         "editor.lineHighlightBorder": "#303030",
         "editorLink.activeForeground": "#ffffff", //?
-        "editor.rangeHighlightBackground": "#30303080",
+        "editor.rangeHighlightBackground": "#30303060",
         "editor.rangeHighlightBorder": "#303030",
         //"editorWhitespace.foreground": "#",
         //"editorIndentGuide.background": "#",
@@ -222,31 +222,31 @@
         "editorSuggestWidget.foreground": "#707070",
         "editorSuggestWidget.highlightForeground": "#bbbbbb",
         "editorSuggestWidget.selectedBackground": "#002030",
-        "editorHoverWidget.background": "#002030",
-        "editorHoverWidget.border": "#002030",
+        "editorHoverWidget.background": "#001828",
+        "editorHoverWidget.border": "#002838",
         "debugExceptionWidget.background": "#001828",
         "debugExceptionWidget.border": "#002030",
         "editorMarkerNavigation.background": "#001828", //?
-        "editorMarkerNavigationError.background": "#ff0000", //?
-        "editorMarkerNavigationInfo.background": "#0000ff", //?
-        "editorMarkerNavigationWarning.background": "#00ff00", //?
+        "editorMarkerNavigationError.background": "#ff000060", //?
+        "editorMarkerNavigationInfo.background": "#0000ff60", //?
+        "editorMarkerNavigationWarning.background": "#00ff0060", //?
         // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         // Peek View Colors — Peek views are used to show references and declarations as a view inside the editor.
         // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         "peekView.border": "#002030",
-        "peekViewEditor.background": "#001828",
-        "peekViewEditorGutter.background": "#002333",
-        "peekViewEditor.matchHighlightBackground": "#003343",
+        "peekViewEditor.background": "#00203090",
+        "peekViewEditorGutter.background": "#00203090",
+        "peekViewEditor.matchHighlightBackground": "#30303060",
         "peekViewResult.background": "#001828",
         "peekViewResult.fileForeground": "#707070",
         "peekViewResult.lineForeground": "#707070",
-        "peekViewResult.matchHighlightBackground": "#003343",
-        "peekViewResult.selectionBackground": "#003343",
+        "peekViewResult.matchHighlightBackground": "#30303060",
+        "peekViewResult.selectionBackground": "#30303060",
         "peekViewResult.selectionForeground": "#c8b48c",
-        "peekViewTitle.background": "#001828",
+        "peekViewTitle.background": "#00203090",
         "peekViewTitleDescription.foreground": "#707070",
         "peekViewTitleLabel.foreground": "#707070",
-        "peekViewEditor.matchHighlightBorder": "#ffff0080",
+        "peekViewEditor.matchHighlightBorder": "#ffff0060",
         // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         // Merge Conflicts — Merge conflict decorations are shown when the editor contains special diff ranges.
         // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -371,8 +371,8 @@
         //"gitDecoration.ignoredResourceForeground": "#",
         //"gitDecoration.conflictingResourceForeground": "#"
         "gitDecoration.modifiedResourceForeground": "#707070",
-	},
-	"tokenColors": [
+    },
+    "tokenColors": [
         {
             "name": "comments",
             "scope": [
@@ -387,116 +387,116 @@
                 "foreground": "#707070"
             }
         },
-		{
-			"name": "main text",
-			"scope": [
+        {
+            "name": "main text",
+            "scope": [
                 "source",
-				"keyword.operator",
-				"variable.parameter",
-				"variable.other.property",
-				"keyword.other.unit",
-				"entity.other.attribute-name",
-				"entity.name.type.interface",
-				"variable.language.wildcard.java",
-				"variable.other.definition",
-				"variable.other.object",
-				"keyword.operator.assignment",
-				"entity.name.function.operator",
-				"support.type.property-name",
-				"entity.name.section.markdown",
-				"markup.bold.markdown",
+                "keyword.operator",
+                "variable.parameter",
+                "variable.other.property",
+                "keyword.other.unit",
+                "entity.other.attribute-name",
+                "entity.name.type.interface",
+                "variable.language.wildcard.java",
+                "variable.other.definition",
+                "variable.other.object",
+                "keyword.operator.assignment",
+                "entity.name.function.operator",
+                "support.type.property-name",
+                "entity.name.section.markdown",
+                "markup.bold.markdown",
                 "punctuation",
                 "storage.modifier.reference",
                 "storage.modifier.pointer"
-			],
-			"settings": {
-				"foreground": "#c8b48c"
-			}
-		},
-		{
-			"name": "numbers and strings",
-			"scope": [
-				"constant.language",
-				"constant.numeric",
-				"constant.character",
-				"constant.other",
-				"constant.regexp",
-				"constant.rgb-value",
-				"constant",
-				"string.quoted.single",
-				"string.quoted.double",
-				"string.interpolated.matlab",
+            ],
+            "settings": {
+                "foreground": "#c8b48c"
+            }
+        },
+        {
+            "name": "numbers and strings",
+            "scope": [
+                "constant.language",
+                "constant.numeric",
+                "constant.character",
+                "constant.other",
+                "constant.regexp",
+                "constant.rgb-value",
+                "constant",
+                "string.quoted.single",
+                "string.quoted.double",
+                "string.interpolated.matlab",
                 "keyword.other.unit.suffix",
                 "keyword.other.unit.hexadecimal"
-			],
-			"settings": {
-				"foreground": "#a0c896"
-			}
-		},
-		{
-			"name": "keywords and types",
-			"scope": [
-				"keyword",
-				"keyword.control",
-				"keyword.operator.new",
-				"keyword.operator.delete",
-				"keyword.operator.sizeof",
-				"keyword.other.using",
-				"keyword.other.operator",
+            ],
+            "settings": {
+                "foreground": "#a0c896"
+            }
+        },
+        {
+            "name": "keywords and types",
+            "scope": [
+                "keyword",
+                "keyword.control",
+                "keyword.operator.new",
+                "keyword.operator.delete",
+                "keyword.operator.sizeof",
+                "keyword.other.using",
+                "keyword.other.operator",
                 "storage.type",
                 "storage.type.struct",
-				"storage.type.primitive",
+                "storage.type.primitive",
                 "storage.type.template",
                 "storage.type.class",
                 "storage.type.modifier",
                 "storage.modifier",
-				"meta.return-type",
-				"support.type",
-				"support.class",
-				"entity.name.namespace",
-				"entity.other.attribute",
-				"entity.name.class",
+                "meta.return-type",
+                "support.type",
+                "support.class",
+                "entity.name.namespace",
+                "entity.other.attribute",
+                "entity.name.class",
                 "entity.name.type",
-				"entity.name.scope-resolution",
+                "entity.name.scope-resolution",
                 "entity.name.scope-resolution.function.call",
                 "entity.other.inherited-class",
                 "entity.name.function.call",
-				"entity.name.operator",
-				"variable.language.this",
-				"variable.language",
+                "entity.name.operator",
+                "variable.language.this",
+                "variable.language",
                 "punctuation.definition.list.begin.markdown",
                 "storage.type.function"
-			],
-			"settings": {
-				"foreground": "#be9632"
-			}
-		},
-		{
-			"name": "macros",
-			"scope": [
-				"meta.import",
-				"meta.preprocessor.macro",
-				"meta.preprocessor.include",
-				"string.quoted.double.include",
-				"string.quoted.other",
-				"entity.name.function.preprocessor",
+            ],
+            "settings": {
+                "foreground": "#be9632"
+            }
+        },
+        {
+            "name": "macros",
+            "scope": [
+                "meta.import",
+                "meta.preprocessor.macro",
+                "meta.preprocessor.include",
+                "string.quoted.double.include",
+                "string.quoted.other",
+                "entity.name.function.preprocessor",
                 "storage.modifier.import",
                 "storage.modifier.package"
-			],
-			"settings": {
-				"foreground": "#509696"
-			}
-		},
-		{
-			"name": "functions",
-			"scope": [
+            ],
+            "settings": {
+                "foreground": "#509696"
+            }
+        },
+        {
+            "name": "functions",
+            "scope": [
                 "entity.name.function",
                 "meta.function-call.generic",
                 "support.function.builtin"
-			],
-			"settings": {
-				"foreground": "#b65f44"
-			}
-		},
-	],
+            ],
+            "settings": {
+                "foreground": "#b65f44"
+            }
+        },
+    ],
 }
