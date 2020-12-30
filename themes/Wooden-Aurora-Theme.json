@@ -405,6 +405,8 @@
 				"entity.name.section.markdown",
 				"markup.bold.markdown",
                 "punctuation",
+                "storage.modifier.reference",
+                "storage.modifier.pointer"
 			],
 			"settings": {
 				"foreground": "#c8b48c"
@@ -446,6 +448,7 @@
                 "storage.type.template",
                 "storage.type.class",
                 "storage.type.modifier",
+                "storage.modifier",
 				"meta.return-type",
 				"support.type",
 				"support.class",
@@ -477,7 +480,8 @@
 				"string.quoted.double.include",
 				"string.quoted.other",
 				"entity.name.function.preprocessor",
-				"storage.modifier.import",
+                "storage.modifier.import",
+                "storage.modifier.package"
 			],
 			"settings": {
 				"foreground": "#509696"
