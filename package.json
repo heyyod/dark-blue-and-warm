@@ -6,7 +6,7 @@
     "author": {
         "name": "Kostas Damaskinos"
     },
-    "version": "0.2.0",
+    "version": "0.2.1",
     "engines": {
         "vscode": "^1.51.0"
     },
@@ -44,7 +44,12 @@
             {
                 "label": "Wooden Aurora Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Wooden-Aurora-Theme.json"
+                "path": "./themes/Wooden-Aurora-Theme-Main.json"
+            },
+            {
+                "label": "Wooden Aurora Theme (Bright)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Wooden-Aurora-Bright-Text.json"
             }
         ]
     }
