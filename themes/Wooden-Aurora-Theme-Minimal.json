@@ -402,7 +402,7 @@
             "name": "keywords and types",
             "scope": [
                 "keyword",
-                "storage.type",
+                "storage",
                 "keyword.operator.new",
                 "keyword.operator.delete"
             ],
