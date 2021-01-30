@@ -410,7 +410,7 @@
                 "storage.modifier.pointer"
             ],
             "settings": {
-                "foreground": "#cfae85"
+                "foreground": "#fadc96"
             }
         },
         {
@@ -483,8 +483,7 @@
                 "entity.name.function.preprocessor",
                 "storage.modifier.import",
                 "storage.modifier.package",
-                "entity.name.import",
-                "entity.name.namespace"
+                "entity.name.import"
             ],
             "settings": {
                 "foreground": "#3ca0b4"

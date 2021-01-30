@@ -44,12 +44,17 @@
             {
                 "label": "Wooden Aurora Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Wooden-Aurora-Theme-Main.json"
+                "path": ".\\themes\\Wooden-Aurora-Theme-Main.json"
             },
             {
                 "label": "Wooden Aurora Theme (Bright)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Wooden-Aurora-Bright-Text.json"
+                "path": ".\\themes\\Wooden-Aurora-Bright-Text.json"
+            },
+            {
+                "label": "Wooden Aurora Theme (Minimal)",
+                "uiTheme": "vs-dark",
+                "path": ".\\themes\\Wooden-Aurora-Theme-Minimal.json"
             }
         ]
     }

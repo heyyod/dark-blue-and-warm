@@ -370,7 +370,7 @@
         //"gitDecoration.untrackedResourceForeground": "#",
         //"gitDecoration.ignoredResourceForeground": "#",
         //"gitDecoration.conflictingResourceForeground": "#"
-        "gitDecoration.modifiedResourceForeground": "#707070",
+        "gitDecoration.modifiedResourceForeground": "#707070"
     },
     "tokenColors": [
         {
@@ -392,115 +392,31 @@
             "scope": [
                 "source",
                 "keyword.operator",
-                "variable.parameter",
-                "variable.other.property",
-                "keyword.other.unit",
-                "entity.other.attribute-name",
-                "entity.name.type.interface",
-                "variable.language.wildcard.java",
-                "variable.other.definition",
-                "variable.other.object",
-                "keyword.operator.assignment",
-                "entity.name.function.operator",
-                "support.type.property-name",
-                "entity.name.section.markdown",
-                "markup.bold.markdown",
-                "punctuation",
-                "storage.modifier.reference",
-                "storage.modifier.pointer"
+                "keyword.other.unit.hexadecimal"
             ],
             "settings": {
                 "foreground": "#c8b48c"
             }
         },
         {
-            "name": "numbers and strings",
-            "scope": [
-                "constant.language",
-                "constant.numeric",
-                "constant.character",
-                "constant.other",
-                "constant.regexp",
-                "constant.rgb-value",
-                "constant",
-                "string.quoted.single",
-                "string.quoted.double",
-                "string.interpolated.matlab",
-                "keyword.other.unit.suffix",
-                "keyword.other.unit.hexadecimal"
-            ],
-            "settings": {
-                "foreground": "#a0c896"
-            }
-        },
-        {
             "name": "keywords and types",
             "scope": [
                 "keyword",
-                "keyword.control",
-                "keyword.operator.new",
-                "keyword.operator.delete",
-                "keyword.operator.sizeof",
-                "keyword.other.using",
-                "keyword.other.operator",
                 "storage.type",
-                "storage.type.struct",
-                "storage.type.primitive",
-                "storage.type.template",
-                "storage.type.class",
-                "storage.type.modifier",
-                "storage.modifier",
-                "meta.return-type",
-                "support.type",
-                "support.class",
-                "entity.name.namespace",
-                "entity.other.attribute",
-                "entity.name.class",
-                "entity.name.type",
-                "entity.name.scope-resolution",
-                "entity.name.scope-resolution.function.call",
-                "entity.other.inherited-class",
-                "entity.name.operator",
-                "variable.language.this",
-                "variable.language",
-                "punctuation.definition.list.begin.markdown",
-                "storage.type.function",
-                "support.other.namespace"
+                "keyword.operator.new",
+                "keyword.operator.delete"
             ],
             "settings": {
                 "foreground": "#be9632"
             }
         },
         {
-            "name": "macros & imports",
+            "name": "macros",
             "scope": [
-                "meta.import",
-                "meta.preprocessor.macro",
-                "meta.preprocessor.include",
-                "string.quoted.double.include",
-                "string.quoted.other",
-                "entity.name.function.preprocessor",
-                "storage.modifier.import",
-                "storage.modifier.package",
-                "entity.name.import"
+                "entity.name.function.preprocessor"
             ],
             "settings": {
                 "foreground": "#509696"
-            }
-        },
-        {
-            "name": "functions",
-            "scope": [
-                "entity.name.function",
-                "meta.function-call.generic",
-                "support.function.builtin",
-                "entity.name.function.call",
-                "support.function.any-method",
-                "support.function.go",
-                "support.function.swift"
-            ],
-            "settings": {
-                "foreground": "#b65f44"
             }
         }
     ]
