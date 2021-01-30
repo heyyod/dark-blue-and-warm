@@ -392,7 +392,8 @@
             "scope": [
                 "source",
                 "keyword.operator",
-                "keyword.other.unit.hexadecimal"
+                "keyword.other.unit.hexadecimal",
+                "storage.modifier"
             ],
             "settings": {
                 "foreground": "#c8b48c"
