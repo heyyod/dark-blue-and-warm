@@ -465,7 +465,8 @@
                 "variable.language.this",
                 "variable.language",
                 "punctuation.definition.list.begin.markdown",
-                "storage.type.function"
+                "storage.type.function",
+                "support.other.namespace"
             ],
             "settings": {
                 "foreground": "#dfb02e"
@@ -481,7 +482,9 @@
                 "string.quoted.other",
                 "entity.name.function.preprocessor",
                 "storage.modifier.import",
-                "storage.modifier.package"
+                "storage.modifier.package",
+                "entity.name.import",
+                "entity.name.namespace"
             ],
             "settings": {
                 "foreground": "#3ca0b4"
@@ -492,11 +495,15 @@
             "scope": [
                 "entity.name.function",
                 "meta.function-call.generic",
-                "support.function.builtin"
+                "support.function.builtin",
+                "entity.name.function.call",
+                "support.function.any-method",
+                "support.function.go",
+                "support.function.swift"
             ],
             "settings": {
                 "foreground": "#d25028"
             }
-        },
-    ],
+        }
+    ]
 }

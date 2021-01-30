@@ -2,6 +2,8 @@
 
 #define def 10;
 
+using namespace std;
+
 class class0
 {
 public:
@@ -35,6 +37,13 @@ void JustAfunction(test &a, test *b)
     test *d = b;
 }
 
+enum enum_case
+{
+    one,
+    two,
+    three
+};
+
 int main()
 {
     int a = 0xFFFFFF;
@@ -57,7 +66,18 @@ int main()
     delete t1;
 
     class0 c(0,0);
+    c.a = 10;
 
     test *ptest = new test;
     ptest->a = 50;
+
+    enum_case case_test = one;
+    switch (ptest->a)
+    {
+    case one:
+        break;
+    
+    default:
+        break;
+    }
 }
